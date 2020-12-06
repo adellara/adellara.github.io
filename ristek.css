@@ -1,0 +1,83 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+img{
+    width:500px;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.left-card,
+.right-card{
+    background-color: #ffde96;
+    margin: 1rem;
+    border-radius: 25px;
+    padding: 1rem;
+    width: 25rem;
+    display: grid;
+}
+
+.photo{
+    margin: 5rem 5% 7.5rem 5%;
+}
+
+.photos-title{
+    font-family: sans-serif;
+}
+
+.photos-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+}
+
+.box-photo{
+    width: 20rem;
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    margin: 1rem;
+}
+
+.box-photo-two{
+    background-color: rgb(151, 149, 151);
+    color: white;
+    font-weight: 600;
+    font-size: 1.75rem;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+#model{
+    background-image: url("profile.jpg");
+}
+
+#ceo{
+    background-image: url("profile.jpg");
+}
+
+#actor{
+    background-image: url("profile.jpg");
+}
